@@ -5,7 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'echo "测试开始 run run run"'
-                sh 'pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple'
+                sh 'pip install -r requirements.txt -i http://pypi.douban.com --trusted-host pypi.douban.com'
                 sh 'python -m pytest test_*.py'
             }
         }
