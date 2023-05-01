@@ -50,7 +50,7 @@
 #fastapi==0.52.0
 #filelock==3.0.12
 #flake8==3.7.9
-Flask==1.1.2
+Flask==2.3.2
 Flask-WebTest==0.0.9
 #foo==1.0
 #gevent==1.5a3
